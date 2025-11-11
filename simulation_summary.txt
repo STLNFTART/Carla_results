@@ -1,0 +1,36 @@
+CARLA SIMULATION DATA RECOVERY REPORT
+======================================================================
+
+SIMULATION: CARLA v0.9.14 - Urban Driving Scenario
+
+Trial ID: MOVE-TRIALT148
+Configuration: u-3.5s-retr-250-cAHEAD
+Total records: 6,129
+Duration: 3032.60 seconds
+Sampling rate: ~5.6 Hz
+Timestep: 0.1790 seconds
+
+RECOVERED PARAMETERS:
+----------------------------------------------------------------------
+• Scenario type: Urban (from config)
+• Number of vehicles: 10 (from README)
+• CARLA version: 0.9.14
+• Configuration string: u-3.5s-retr-250-cAHEAD
+• Data columns: 38
+• Simulation start: 201.50s
+• Simulation end: 3234.10s
+
+DATA STRUCTURE:
+----------------------------------------------------------------------
+Column 0: Trial ID
+Column 1: Configuration string
+Column 2: Timestamp
+Columns 3-37: Sensor data, vehicle positions, collision events
+
+TO RECONSTRUCT THE SIMULATION:
+----------------------------------------------------------------------
+1. Use CARLA v0.9.14
+2. Set up urban driving scenario
+3. Configure 10 autonomous vehicles
+4. Use configuration: u-3.5s-retr-250-cAHEAD
+5. Set sampling rate to ~5.6 Hz
